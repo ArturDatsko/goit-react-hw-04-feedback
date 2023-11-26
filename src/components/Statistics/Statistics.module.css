@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 200px;
+  border-radius: 6px;
+  background-color: rgba(149, 248, 252, 0.425);
+  margin: 0;
+  padding: 20px;
+}
+
+.item {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
